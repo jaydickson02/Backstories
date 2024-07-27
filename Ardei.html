@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Ardei - Backstory</title>
+  <style>
+    body {
+      background-color: #f8f9fa; /* Light grey background for a clean look */
+      font-family: 'Arial', sans-serif;
+      color: #333; /* Darker text color for readability */
+      line-height: 1.6;
+    }
+    .content-container {
+      background-color: #ffffff; /* White background for content sections */
+      border: 1px solid #e1e4e8; /* Light border for subtle separation */
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a modern touch */
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 8px; /* Rounded corners for a softer look */
+    }
+    .header, .footer {
+      background-color: #343a40; /* Darker header and footer */
+      color: white;
+      padding: 1rem 0;
+    }
+    .back-button {
+      display: inline-block;
+      margin-bottom: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #007bff; /* Bootstrap blue */
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .back-button:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+    }
+    .character-details ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .character-details ul li {
+      margin-bottom: 0.5rem;
+    }
+    .character-image {
+      max-width: 100%; /* Ensure the image does not exceed the container's width */
+      max-height: 300px; /* Set a maximum height for the image */
+      width: auto; /* Maintain aspect ratio */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 8px; /* Slightly rounded corners for a polished look */
+    }
+    .section-title {
+      font-family: 'Verdana', sans-serif;
+      color: #495057;
+      border-bottom: 2px solid #dee2e6;
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+    .quote {
+      font-style: italic;
+      color: #6c757d;
+      border-left: 4px solid #dee2e6;
+      padding-left: 1rem;
+      margin: 1rem 0;
+    }
+    /* Go to Top Button */
+    #goTopBtn {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      display: none; /* Hidden by default */
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s;
+      text-align: center;
+      line-height: 50px; /* Vertically center the text */
+    }
+    #goTopBtn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header class="header text-center">
+    <h1 class="text-3xl font-bold">Ardei</h1>
+    <p class="text-lg">Human | Chaotic Good | 22 Years Old | Magus</p>
+  </header>
+
+  <main class="container mx-auto p-6">
+    <!-- Back Button -->
+    <a href="index.html" class="back-button">← Back</a>
+
+    <!-- Character Information and Image Section -->
+    <section class="character-details content-container md:flex md:justify-between">
+      <div class="md:w-1/3 flex justify-center items-center p-2">
+        <img src="assets/Ardei.png" alt="Ardei" class="character-image">
+      </div>
+      <div class="md:w-2/3 p-2">
+        <h2 class="section-title">Character Information</h2>
+        <ul>
+          <li><strong>Name:</strong> Ardei</li>
+          <li><strong>Class:</strong> Magus</li>
+          <li><strong>Race:</strong> Human</li>
+          <li><strong>Alignment:</strong> Chaotic Good</li>
+          <li><strong>Age:</strong> 22 Years</li>
+          <li><strong>Height:</strong> 5'4"</li>
+          <li><strong>Background:</strong> Foundling</li>
+        </ul>
+      </div>
+      
+    </section>
+
+    <!-- Backstory Section -->
+    <article class="content-container">
+      <div class="story-content p-4">
+        <h2 class="section-title">Backstory</h2>
+        <p class="mt-4">
+            Ardei cautiously inched closer to the edge of the towering cliff. The dizzying height obscured the bottom from view, but it didn't faze her. The precipice offered a serene sanctuary to clear her head before the momentous task ahead. Today marked the final trial, and while Asathor, with his wings, found it easy, she knew it wouldn't be the same for her. Not that she was bad at flying; in fact, she was quite skilled. However, this challenge demanded a different kind of prowess.
+          </p>
+          <p class="mt-4">
+            To succeed, she had to scale the peaks of every mountain visible from the temple observatory and leave a sacred seed at each summit—an embodiment of the protector's oath: "With resolute devotion, I hereby pledge to safeguard and nurture the boundless expanse of life, upholding its sacred sanctity and embracing its unparalleled magnificence."
+          </p>
+          <p class="mt-4">
+            Clutching the ancient staff tightly, her thoughts drifted back to that life-altering day from her childhood. The night had enveloped the camp in chaos and terror. As she fled her tent, frantically searching for her missing parents, she stumbled upon a grisly scene. Her mother lay sprawled on a boulder, lifeless and broken, while a malevolent creature feasted on her entrails like a vulture. Fear and shock paralyzed her as the beast turned its attention to her, a sinister grin spreading across its face. She braced for the inevitable pain, but before the creature could strike, a powerful force gripped her shoulders, and she found herself lifted into the air by a majestic bird. Another avian savior streaked down, its blade slicing through the nearest demon, unleashing blinding light that obliterated a horde of infernal entities.
+          </p>
+          <p class="mt-4">
+            Since that fateful day, she had vowed to never let such horrors befall anyone else.
+          </p>
+          <p class="mt-4">
+            The Aarakocra, recognizing her courage and potential, had embraced her as one of their own. Under the tutelage of the wise Minson, she learned the ancient magic of the Magus, ultimately intending to become his successor alongside Asathor.
+          </p>
+          <p class="mt-4">
+            Now, together they serve as protectors, defending life and providing aid to those in need. Yet, there remained one final step in her journey.
+          </p>
+          <p class="mt-4">
+            Staring out at the vast expanse between the mountains, her feet at the cliff's very edge, she felt the weight of responsibility and purpose. With a deep breath, she leaned forward, plunging into the unknown depths below. But this time, she knew she would soar higher than ever before, her glider unfurled and caught the wind. She streaked through the sky, determination in her eyes.
+          </p>
+          <p class="mt-4"><strong>TL;DR</strong></p>
+          <p class="mt-4">
+            Ardei is a newly christened member of the Skyward Sentinels, a duo of protectors charged with safeguarding life and its expansion. When she was just an 8-year-old child, her family tragically fell victim to a demon incursion that led to the destruction of her entire village and the loss of all her loved ones. The Aarakocra Sentinels of the day arrived to vanquish the demons, but unfortunately, they were too late to save anyone except Ardei.
+          </p>
+          <p class="mt-4">
+            Adopted into their ranks, Ardei was taken under the wing of Minson and trained in the ancient art of the Magus. However, the tranquility of their temple was disrupted when the wardstone spontaneously exploded. Fearing the implications this event could have on the containment of the Worldwound, the council has now assigned Ardei and Asathor the task of offering their services to combat the impending darkness.
+          </p>
+    </div>
+  </article>
+</main>
+
+<footer class="footer text-center">
+  <p>&copy; 2024 Jay Dickson</p>
+</footer>
+
+<!-- Go to Top Button -->
+<button id="goTopBtn" onclick="scrollToTop()">↑</button>
+
+<script>
+  // Get the button
+  var goTopBtn = document.getElementById("goTopBtn");
+
+  // Show the button when the user scrolls down 20px from the top of the document
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      goTopBtn.style.display = "block";
+    } else {
+      goTopBtn.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function scrollToTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+  }
+</script>
+</body>
+</html>
+    

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Nerafil - Backstory</title>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+    .content-container {
+      background-color: #ffffff;
+      border: 1px solid #e1e4e8;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+    }
+    .header, .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 1rem 0;
+    }
+    .back-button {
+      display: inline-block;
+      margin-bottom: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .back-button:hover {
+      background-color: #0056b3;
+    }
+    .character-details ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .character-details ul li {
+      margin-bottom: 0.5rem;
+    }
+    .character-image {
+      max-width: 100%;
+      max-height: 300px;
+      width: auto;
+      height: auto;
+      border-radius: 8px;
+    }
+    .section-title {
+      font-family: 'Verdana', sans-serif;
+      color: #495057;
+      border-bottom: 2px solid #dee2e6;
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+    .quote {
+      font-style: italic;
+      color: #6c757d;
+      border-left: 4px solid #dee2e6;
+      padding-left: 1rem;
+      margin: 1rem 0;
+    }
+    /* Go to Top Button */
+    #goTopBtn {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      display: none;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s;
+      text-align: center;
+      line-height: 50px;
+    }
+    #goTopBtn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header class="header text-center">
+    <h1 class="text-3xl font-bold">Nerafil</h1>
+    <p class="text-lg">Human | Alt Bard | 25 Years Old</p>
+  </header>
+
+  <main class="container mx-auto p-6">
+    <!-- Back Button -->
+    <a href="index.html" class="back-button">← Back</a>
+
+    <!-- Character Information and Image Section -->
+    <section class="character-details content-container md:flex md:justify-between">
+      <div class="md:w-1/3 flex justify-center items-center p-2">
+        <img src="assets/Nerafil.png" alt="Nerafil" class="character-image">
+      </div>
+      <div class="md:w-2/3 p-2">
+        <h2 class="section-title">Character Information</h2>
+        <ul>
+          <li><strong>Name:</strong> Nerafil</li>
+          <li><strong>Class:</strong> Alt Bard</li>
+          <li><strong>Race:</strong> Human</li>
+          <li><strong>Age:</strong> 25 Years</li>
+          <li><strong>Background:</strong> Street Performer turned Professional Musician</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Backstory Section -->
+    <article class="content-container">
+      <div class="story-content p-4">
+        <h2 class="section-title">Backstory</h2>
+        <p class="mt-4">
+            From a young age in the alleys of a bustling city, Nerafil's life was defined by scarcity and hardship. Yet, amidst this struggle, she found solace and purpose in the violin. Self-taught and driven, she honed her skills on a battered instrument, her talent blossoming in the shadows of poverty. Her parents, consumed by their own struggles to make ends meet, could offer little but a roof over her head.
+          </p>
+          <p class="mt-4">
+            Word of Nerafil's prodigious talent however began to spread, her music resonated through the streets and alleys, eventually catching the attention of a local benefactor Fayron. This patron of the arts, moved by her raw talent and determination, offered her a chance to study formally under his tutelage and to perform in refined circles.
+          </p>
+          <p class="mt-4">
+            Nerafil embraced this opportunity, her skill and unique style quickly earning her a reputation. She rose through the ranks with her journey culminating in an invitation to perform at the Echo Theater, a stage graced by the elite and influential members of high society. It was more than a performance; it was her chance to rise above her origins, to be recognized for her art and start her life anew.
+          </p>
+          <p class="mt-4">
+            However, the night that was to be her triumph turned into her nightmare. Stepping onto the stage and preparing to play her first note, a catastrophic explosion tore through the venue. Surviving but grievously injured, losing both her arms, her world collapsed. Her means of expression, her very identity as a musician, was ripped away and any chance at a new life crumbled to dust.
+          </p>
+          <p class="mt-4">
+            Refusing to be silenced, Nerafil explored every conceivable method to play again, but each attempt fell short, she felt nothing could capture the essence and soul of her music. In her desperation, she conceived a daring idea: to extract the music from within her own soul. She figured this purest form of expression was her last chance to recapture what she’d lost.
+          </p>
+          <p class="mt-4">
+            She sought out a renegade mage-artificer, a figure both revered and feared for his unconventional fusion of magic and technology. Together, they embarked on a dark experiment. Through an arcane surgery, Nerafil's soul was laid bare and the music was pulled from it and separated into its own entity - a spectral instrument that was an ethereal manifestation of her inner self. This spectral violin allowed her to play with extraordinary emotion and depth, but it came with a heavy price. The act of playing exposed her, leaving her vulnerable and riddled with pain.
+          </p>
+          <p class="mt-4">
+            This result broke Nerafil. She felt tainted, her innermost self split open to the world. Her dreams were destroyed and she had no options left. Her sorrow turned quickly to rage and all she could think of was finding those responsible for taking everything from her.
+          </p>
+          <p class="mt-4">
+            So now, with her spectral violin and the bardic powers it bestowed, Nerafil's music became a channel for her fury and a tool in her quest for retribution. Her performances were no longer just recitals but a cold and calculated weapon that she could use on her quest for revenge.
+          </p>
+          <p class="mt-4"><strong>The Dark Experiment</strong></p>
+          <p class="mt-4">
+            The door stood before me, nestled deep between a twisted maze of alleyways, buried in the darkest part of the city. The door, unremarkable to the casual observer, was the threshold to my last and most desperate gambit. With a deep breath, a mix of dread and determination swirling within me, I pushed it open and stepped into a realm that defied the ordinary—the hidden laboratory.
+          </p>
+          <p class="mt-4">
+            This sanctum was a maelstrom of the arcane and the mechanical, a fusion of science and sorcery that mocked the natural laws. The air buzzed with latent energy, and the walls were lined with artefacts that blurred the line between ingenious and insane. At the centre of this chaos stood the man, a figure whose very presence was a dark cloud over the room. His eyes, cold and detached, regarded me not as a person but as an object—a mere component in his next twisted experiment.
+          </p>
+          <p class="mt-4">
+            He was the master of forbidden arts, a weaver of nightmares and dreams. As he outlined the procedure with a chilling dispassion, I felt a shiver crawl down my spine. We were to commit a transgression against the deepest laws of nature—we were going to meddle with the soul itself.
+          </p>
+          <p class="mt-4">
+            He bound me to a chair that seemed more a tool of torture than a piece of furniture, I was surrounded by an array of instruments that glowed and buzzed with an ominous power. Their purpose was beyond my understanding, and their design was born of a mind that revered no boundary or moral code.
+          </p>
+          <p class="mt-4">
+            As the man began his work, an excruciating pain seared through me, a pain that transcended flesh and bone, reaching into the depths of my soul. The world around me dissolved into a whirlpool of lights and shadows, a realm where the physical and the ethereal merged in a disorienting dance.
+          </p>
+          <p class="mt-4">
+            Amidst this tempest, I caught glimpses of the spiritual plane—a realm where raw energies and untamed magic swirled in a mesmerising, terrifying display. It was a place of unspeakable wonder, yet with each pulse of pain, I felt an intrusion, a violation of the sacred balance of nature.
+          </p>
+          <p class="mt-4">
+            There was a moment, amidst the agony and the unearthly visions, where my resolve faltered. The desire to cry out, to halt this madness, clawed at the edges of my mind. But deep within, a well of determination, born of years of struggle and dreams unfulfilled, surged forth. Clenching my teeth, I silenced the scream within and willed myself to endure, to see this unholy rite through to its end.
+          </p>
+          <p class="mt-4">
+            The man, his face a mask of cold concentration, continued his work. His hands moved over my body with precision, twisting his arcane tools into my flesh. He was an artist in his own right, but one whose canvas was the fabric of reality, a fabric he had no problem defiling.
+          </p>
+          <p class="mt-4">
+            Time lost all meaning as I hovered between worlds, my very essence being twisted and reshaped. When at last the procedure came to an end, the world snapped back into focus. The laboratory, once a place of morbid curiosity, now felt like a desecrated shrine.
+          </p>
+          <p class="mt-4">
+            He unbound me and I stood, unsteadily. I could feel a presence within me that was foreign yet inextricably mine. With a thought that was both an invocation and a plea, a spectral instrument materialised. It was a ghostly, haunting reflection of my innermost self. As I willed it to play, the music was a revelation—a beautiful melody constructed of my soul but exposed and unshielded.
+          </p>
+          <p class="mt-4">
+            Each note came with a horrible price—a pain that lacerated my spirit, a vivid reminder of the travesty we had committed. The man watched as I played, his expression one of dark satisfaction, as I grappled with the reality of what I had become. I felt suddenly exposed under his gaze and willed the instrument to vanish once more.
+          </p>
+          <p class="mt-4">
+            As the final notes of my spectral melody faded, a profound silence enveloped the laboratory. This silence, thick with the remnants of the ritual, bore witness to the irrevocable transformation I had undergone.
+          </p>
+          <p class="mt-4">
+            In that moment, standing amidst the arcane debris, the full realisation of my loss descended upon me. The dream I had nurtured, the dream of a violinist gracing the grand stages, was truly dead. A sorrow, deep and consuming, welled up within me. It was a mourning for my past self, for the simplicity of a dream unmarred by such cruel twists of fate.
+          </p>
+          <p class="mt-4">
+            But as I stood there, the sorrow began to morph, to harden. What started as a lament for a lost dream turned into a burning ember of rage. Rage against those who had taken everything from me, who had turned my moment of triumph into this nightmare of loss and desperation.
+          </p>
+          <p class="mt-4">
+            With each passing moment, my resolve strengthened. This was no longer about mourning a lost dream; it was about retribution, about directing this burning anger towards those responsible for my suffering. The violin, once a symbol of my passion, had now become the instrument of my vengeance.
+          </p>
+          <p class="mt-4">
+            Knives
+            - Parents, Fayron (+2)
+            - Handicap (+1)
+            - Theatre Explosion (+1)
+            - Exposed soul (+1)
+            - Solving the explosion (+1)
+            - Turned to crime, tunnel vision (+1)
+          </p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer text-center">
+    <p>&copy; 2024 Jay Dickson</p>
+  </footer>
+
+  <!-- Go to Top Button -->
+  <button id="goTopBtn" onclick="scrollToTop()">↑</button>
+
+  <script>
+    // Get the button
+    var goTopBtn = document.getElementById("goTopBtn");
+
+    // Show the button when the user scrolls down 20px from the top of the document
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        goTopBtn.style.display = "block";
+      } else {
+        goTopBtn.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function scrollToTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    }
+  </script>
+</body>
+</html>
